@@ -1,0 +1,28 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url(https://i.pinimg.com/originals/06/ed/63/06ed63bf3a72913b326edc3d7c7a32c5.jpg); 
+}
+
+a {
+  color: #00B7FF;
+}
+.container-fluid{
+  display: flex;
+  align-items: flex-start;
+}
+
+.category {
+  display: flex;
+  justify-content: space-between; 
+
+}
+
+.card {
+  width: 25vw;
+}
+.lh-base{
+  display: flex;
+  justify-content: flex-start;
+
+}

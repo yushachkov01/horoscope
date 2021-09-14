@@ -1,0 +1,10 @@
+<div class="p-3 mb-2 bg-primary text-white">
+  <p>Выбери гороскоп</p>
+</div>
+<div>
+  {{#each categories}}
+    <a class="category" href='/horoscope/{{this.id}}'>{{this.name}}</a>
+      <span class='message'></span>
+  </div>
+  {{/each}}
+</div>
